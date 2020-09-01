@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="img/icono.ico" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nunito+Sans&family=Raleway:ital,wght@1,100;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/all.min.js"></script>
+	<title>Mi Portafolio</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link lead p-3 text-white" href="#acerca-de">Acerca de mi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link lead p-3 text-white" href="#educacion">Educación</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link lead p-3 text-white" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container h-100">
+			<div class="row">
+				<div class="col-12 text-center mt-5 border border-bottom-0 p-5">
+					<h1 class="nombre">Edwin Javier Morales Hernández</h1>
+					<h2 class="profesion">Estudiante de la Escuela Superior de Cómputo(ESCOM)</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center h-auto align-self-center">
+					<img src="img/foto.jpg" alt="" class="img-fluid rounded-circle foto-perfil">
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<main>
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-12 text-center">
+					<p class="lead display-4 sobre-mi subtitulo" id="acerca-de">Acerca de mi</p>
+					<p class="introduccion">Estudiante de octavo semestre en la Escuela Superior de Cómputo del
+						Instituto Politécnico
+						Nacional. Me gusta jugar videojuegos, ver series y peliculas, y jugar fútbol. Los temas de mi
+						interés son; Seguridad informática, criptografía, inteligencia artificial y desarrollo de
+						aplicaciones web.</p>
+					<div class="row">
+						<div class="col-12">
+							<i class="fas fa-gamepad"></i>
+							<i class="fab fa-xbox"></i>
+							<i class="fas fa-headset"></i>
+							<i class="fas fa-futbol"></i>
+							<i class="fas fa-desktop"></i>
+							<i class="fas fa-keyboard"></i>
+							<i class="fas fa-mobile"></i>
+							<i class="fas fa-code"></i>
+							<i class="fas fa-user-secret"></i>
+							<i class="fas fa-terminal"></i>
+							<i class="fas fa-sitemap"></i>
+							<i class="fas fa-brain"></i>
+						</div>
+					</div>
+					<p class="introduccion mt-3"><a download="CV-EdwinMorales.pdf" href="CV.pdf" class="cv"><i class="fas fa-download"></i>Mi CV</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid formacion">
+			<div class="row my-5">
+				<div class="col-12 text-center">
+					<p class="lead display-4 pt-3 subtitulo" id="educacion">Formación</p>
+					<div class="my-5">
+						<p class="h3 font-weight-bold p-2">Escuela Superior de Cómputo-IPN</p>
+						<p class="h3 font-weight-bold p-2">Cursando Ingeniería en Sistemas Computacionales</p>
+						<p class="h3 font-weight-bold p-2">2017-A la fecha</p>
+					</div>
+					<hr>
+					<div class="my-5">
+						<p class="h3 font-weight-bold p-2">CET 1 Walter Cross Buchanan-IPN</p>
+						<p class="h3 font-weight-bold p-2">Técnico en Redes de Cómputo</p>
+						<p class="h3 font-weight-bold p-2">2013-2016</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container p-5">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-center mb-4">
+						<p class="lead display-4 text-center mb-0 subtitulo" id="contacto">Contacto</p>
+						<small class="text-muted d-block">*(Github solo permite publicar sitios sin backend, por lo cual
+							este formulario no es funcional)</small>
+					</div>
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="nombre">Nombre</label>
+								<input type="text" class="form-control" id="nombre">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="mensaje">Mensaje:</label>
+							<textarea id="mensaje" cols="30" rows="10" class="form-control"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="container-fluid">
+		<div class="row mt-5">
+			<div class="col-12 py-3 text-center">
+				<a href="https://github.com/EdwinMHZ" class="github text-decoration-none h1 py-1 px-3"><i
+						class="fab fa-github"></i></a>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
